@@ -1,0 +1,19 @@
+{
+    "name": "dongdavid/weather-test",
+    "description": "A Test For Dongdavid\\Weather",
+    "authors": [
+        {
+            "name": "DongDavid",
+            "email": "ddv576029053@outlook.com"
+        }
+    ],
+    "require": {
+        "dongdavid/weather": "dev-master"
+    },
+    "repositories": {
+        "weather": {
+            "type": "path",
+            "url": "../weather"
+        }
+    }
+}

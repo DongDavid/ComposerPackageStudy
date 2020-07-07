@@ -1,0 +1,21 @@
+{
+    "name": "dongdavid\/weather",
+    "description": "A weather SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DongDavid",
+            "email": "ddv576029053@outlook.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "phpunit/phpunit": "^9.2",
+        "mockery/mockery": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dongdavid\\Weather\\": "src"
+        }
+    }
+}
