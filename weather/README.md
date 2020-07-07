@@ -27,6 +27,8 @@ $weather = new Weather($key);
 
 ```php
 $response = $weather->getWeather('杭州');
+
+$response = $weather->getLiveWeather('杭州');
 ```
 示例:  
 
@@ -56,6 +58,8 @@ $response = $weather->getWeather('杭州');
 
 ```php
 $response = $weather->getWeather('杭州', 'all');
+
+$response = $weather->getForecastsWeather('杭州');
 ```
 
 示例:  
